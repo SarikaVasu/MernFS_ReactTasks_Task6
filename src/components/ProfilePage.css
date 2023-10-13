@@ -1,0 +1,148 @@
+/* PRofilePage */
+  header {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../image/Pattern.png');
+    background-color: #10002b;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+  }
+  li {
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 3rem;
+  }
+  .background {
+    background-image: url('../image/Girl.png');
+    opacity: 0.1;
+  }
+  .ProfileBox {
+    width: 70%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ProfileBox:hover {
+    transform: scale(1.05);
+  }
+  .profileContent {
+    width: 100%;
+    height: 80%;
+    background-color: #10002b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .profileContent:hover {
+    box-shadow: 0 0 1rem 0.5rem #40cbea;
+  }
+  .navBox {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 72%;
+  }
+  .navBox:hover {
+    transform: scale(1.05);
+  }
+  .navContent {
+    width: 100%;
+    height: 80%;
+    background-color: #10002b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4rem;
+    margin: 1rem;
+  }
+  .navContent:hover {
+    box-shadow: 0 0 1rem 0.5rem #40cbea;
+  }
+  .navTab {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .navComp {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .link {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+  .Box1 {
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    position: absolute;
+    left: 0px;
+    top: 8%;
+  }
+  .Box2 {
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    position: absolute;
+    right: 0px;
+    top: 38%;
+  }
+  .profile1 {
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    margin-right: 1rem;
+  }
+  .profile2 {
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    margin-left: 1rem;
+  }
+  .arrowCircle2 {
+    position: absolute;
+    top: 88%;
+  }
+  .arrowCircle__icon {
+    font-size: 3rem;
+  }
+  @media screen and (max-width: 1200px){
+    header {
+        background-image: url('../image/Girl.png');
+    }
+    li {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+  }

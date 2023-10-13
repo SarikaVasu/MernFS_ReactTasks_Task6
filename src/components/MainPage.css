@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Press+Start+2P&family=Rowdies:wght@300&family=Rubik+Marker+Hatch&family=Titan+One&display=swap');
+  header {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('../image/Pattern.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .containerBox {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(31, 26, 34, 0.905);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contentBox {
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0 0 2rem 0 rgb(90, 142, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftBox,
+  .rightBox {
+    width: 45%;
+    height: 85%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 1rem 0 grey;
+    background-color: #10002b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftBox:hover,
+  .rightBox:hover {
+    box-shadow: 0 0 1rem 0 rgb(90, 142, 238);
+    transform: scale(1.05);
+    background-color: black;
+    color: rgb(90, 142, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightBox {
+    margin-right: 2rem;
+  }
+  .leftBoxText,
+  .rightBoxText {
+    padding-left: 10px;
+    display: block;
+    text-align: left;
+    font-family: 'Bilbo Swash Caps', cursive;
+  }
+  .leftBoxText {
+    font-size: 3.5rem;
+    font-family: 'Rubik Marker Hatch';
+  }
+  .rightBoxText {
+    font-size: 3rem;
+    font-family: 'Courgette';
+  }
+  .nowrap {
+    text-wrap: nowrap;
+  }
+  @media screen and (max-width: 1200px){
+    .leftBoxText {
+      font-size: 1.5rem;
+      font-family: 'Rubik Marker Hatch';
+    }
+    .rightBoxText {
+      font-size: 1rem;
+      font-family: 'Courgette';
+    }
+  }
+  @media screen and (max-width: 760px){
+    .App {
+      margin: 1rem;
+    }
+    .leftBox,
+    .rightBox {
+      margin: 0px;
+    }
+    .leftBox:hover,
+    .rightBox:hover {
+      transform: scale(0);
+    }
+    .leftBoxText {
+      font-size: 1rem;
+      font-family: 'Rubik Marker Hatch';
+    }
+    .rightBoxText {
+      font-size: 1rem;
+      font-family: 'Courgette';
+    }
+  }
+  .arrowCircle1 {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.653);
+  }
+  .link {
+    color: #80ffdbaa;
+  }

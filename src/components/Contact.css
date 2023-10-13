@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Press+Start+2P&family=Rowdies:wght@300&family=Rubik+Marker+Hatch&family=Titan+One&display=swap');
+  header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('../image/Pattern.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .contactBox {
+    width: 60%;
+    height: 60%;
+    background-color: rgba(31, 26, 34, 0.905);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contentBox {
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0 0 2rem 0 rgb(90, 142, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Box3 {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  .picture {
+    font-size: 10rem;
+    margin: 2rem;
+    padding: 2rem;
+    width: 20%;
+    text-align: center;
+  }
+  @media screen and (max-width: 760px){
+    .App {
+      margin: 1rem;
+    }
+  }
+  .arrowCircle3 {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.653);
+  }
+  .link {
+    color: #80ffdbaa;
+  }
